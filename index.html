@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ↓メタ要素(サイトの仕様を書くための場所
+          ・文字コード
+          ・リンク
+          ・サイトの説明(meta))
+          ・etc...... -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio cafe</title>
+  <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェとか何とか適当に言っておく">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <!-- ブラウザ毎の表示の誤差を少なくする為のプラグインです。 -->
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- Google fontsを使用しています。  -->
+  <link rel="stylesheet" href="css.css">
+  <!-- CSSへのリンク -->
+  <link rel="icon" href="images/favicon.png">
+</head>
+
+<!-- 本文部分↓ -->
+<body>
+  <!-- ヘッダー↓ -->
+  <div id="home" class="big-bg">
+
+    <header class="page-header wrapper">
+      
+      <h1><a href="index.html"><img class="logo"   src="images/logo.svg" alt="WCBカフェホーム"></a></h1>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="news.html">News</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="home-content wrapper">
+      <h2 class="page-title">We`ll Make Your Day</h2>
+      <p>おしゃれなカフェで癒されてみませんか？ 無添加の食材で体の中からリフレッシュ。</p>
+      <a class="button" href="menu.html">メニューを見る</a>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+  <!-- javascriptへのリンクです。なお、最後に読み込まれるように、body要素の末尾に配置します。 -->
+</body>
+  </html>
